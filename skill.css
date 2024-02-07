@@ -1,0 +1,118 @@
+/* skills.css */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+.body_section{
+    padding : 3% 5% 1%;
+}
+
+  @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+
+  }
+
+.brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Gabriola";
+      font-size: 50px;
+      font-weight: bold;
+      color: #351458;
+  }
+  @media only screen and (max-width : 764px){
+      .brand-name ,.navbar-light .navbar-brand{
+      font-family: "Lovely Home";
+      font-size: 40px;
+      font-weight: bold;
+      color: #351458;
+  }
+}
+  .headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+  }
+
+  .headerachor:hover {
+    background-color: #f1f1f1;
+  }
+
+  .projectimage{
+      width:80%;
+      height:80%;
+  }
+/* skills.css */
+
+/* Style the skills section header */
+.project-heading h1 {
+    font-size: 36px;
+    color: #333; /* Text color */
+}
+
+/* Style the skills section text */
+.p-text {
+    font-size: 18px;
+    color: #777; /* Text color */
+    margin-top: 20px;
+}
+
+/* Style the skills list */
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Style individual skill categories */
+#skills h2 {
+    font-size: 24px;
+    color: #333; /* Text color */
+    margin-top: 20px;
+}
+
+/* Style individual skill items */
+#skills li {
+    font-size: 18px;
+    color: #555; /* Text color */
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out; /* Add a color transition on hover */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Style strong elements within the list as skill categories */
+#skills li strong {
+    font-weight: bold;
+    color: #FF5733; /* Category color */
+}
+
+/* Add custom bullet point icon */
+#skills li::before {
+    content: "\2022"; /* Bullet point character */
+    color: #FF5733; /* Bullet point color */
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+/* Hover effect - change text color on hover */
+#skills li:hover {
+    color: #FF5733; /* Hover color */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .project-heading h1 {
+        font-size: 24px;
+    }
+    .p-text {
+        font-size: 16px;
+    }
+    #skills h2 {
+        font-size: 20px;
+    }
+    #skills li {
+        font-size: 16px;
+    }
+}
