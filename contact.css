@@ -24,7 +24,7 @@ body{
       font-family: "Gabriola";
       font-size: 50px;
       font-weight: bold;
-      color: #351458;
+      color: #150f1d;
   }
   @media only screen and (max-width : 764px){
       .brand-name ,.navbar-light .navbar-brand{
